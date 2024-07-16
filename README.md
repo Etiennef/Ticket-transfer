@@ -1,3 +1,23 @@
+# Future of this plugin
+
+TLDR: it's dead
+
+This plugin has been developed for glpi 0.8x.
+GLPI 9 and later introduced significant changes that make the migration non-trivial.
+
+As I'm not working with GLPI anymore and have forgotten most of what I ever knew about it, it's extremely unlikely I'll ever update it myself.
+
+If you feel like doing it, you should proably restart from the 9.x-develop branch, and I'll try to answer the questions you may have.  
+I have not precise memory of what I had done since it was 8 years ago,
+but it looks like I took care of the extjs to jquery migration & the last commit is named "Finish GLPI0.90+ port" so it should be decent.
+It even translates most of the comment to English.  
+It probably wasn't thouroughly tested though.
+
+
+
+
+
+
 # Tickettransfer
 Ce plugin a pour objet de permettre à un technicien de transférer un ticket de façon plus simple que ce que permet nativement de faire GLPI. 
 
